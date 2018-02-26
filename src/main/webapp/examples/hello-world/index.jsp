@@ -44,5 +44,6 @@
 <body>
     <br/>
     <h1>Hello <span id='username'></span></h1>
+    <h2>How are you?</h2>
 </body>
 </html>
