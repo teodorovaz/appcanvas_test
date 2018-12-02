@@ -51,6 +51,6 @@
     <br/>
     <h1>Hello <span id='username'></span></h1>
     <h2>How are you?</h2>
-    <button onclick="myFunction()"></button>
+    <button onclick='myFunction()'></button>
 </body>
 </html>
