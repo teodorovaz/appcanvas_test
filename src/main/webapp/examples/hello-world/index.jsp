@@ -39,11 +39,18 @@
             Sfdc.canvas.byId('username').innerHTML = sr.context.user.fullName;
         });
 
+        myFunction()
+        {
+            var sr = JSON.parse('<%=signedRequestJson%>');
+            console.log(sr);
+            alert('Button clicked!');
+        }
     </script>
 </head>
 <body>
     <br/>
     <h1>Hello <span id='username'></span></h1>
     <h2>How are you?</h2>
+    <button onclick="myFunction()"></button>
 </body>
 </html>
